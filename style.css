@@ -32,7 +32,17 @@ button {
     padding: 8px;;
 }
 
-img {
+.apps {
+    width: 32px;
+    position: relative;
+    top: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+    opacity: 0.7;
+    height: auto;
+}
+
+.logo {
     padding-top: 109px;  /* from inspect element in Google site;*/
 }
 
@@ -80,8 +90,6 @@ footer a {
 header {
     width: 98%;
     height: 40px;
-    margin: 8px;
-    padding: 8px;
     display: flex;
     align-items: baseline;
 }
