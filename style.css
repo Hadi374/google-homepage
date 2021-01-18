@@ -90,6 +90,7 @@ footer a {
 header {
     width: 98%;
     height: 40px;
+    padding: 8px;
     display: flex;
     align-items: baseline;
 }
