@@ -1,4 +1,22 @@
 * {
     padding: 0px;
     margin: 0px;
+    text-align: center;
+}
+
+input {
+    margin: 8px;
+    padding: 8px;
+    width: 450px;
+    border: 1px solid lightgray;
+    border-radius: 20px;;
+}
+
+input:hover {
+    border: 1px solid white;
+    box-shadow: 3px 3px 5px 5px gainsboro;
+}
+
+input:focus {
+    border: none;
 }
