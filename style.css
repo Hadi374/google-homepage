@@ -3,14 +3,21 @@
     margin: 0px;
     text-align: center;
     font-family: Roboto, sans-serif;
+    
 }
-
+*:hover *:focus {
+    outline: none;
+}
 input {
-    margin: 16px;
+    margin: 24px;
     padding: 8px;
-    height: 32px;
+    padding-left: 20px ;
+    height: 28px;
     width: 450px;
     border: 1px solid lightgray;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
     border-radius: 25px;;
 }
 
@@ -19,14 +26,15 @@ input:hover {
     box-shadow: 0px 0px 3px 3px gainsboro;
 }
 
-input:focus {
-    border: none;
-}
-
 button {
     margin: 8px;
     padding: 8px;;
 }
+
+img {
+    padding-top: 109px;  /* from inspect element;*/
+}
+
 
 .blue-button {
     background-color: dodgerblue;
@@ -39,12 +47,58 @@ button {
 .gray-button {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
-    color: #101010;
-    font-weight: 500;
+    color: #454545;
+    font-weight: 400;
     border-radius: 2px;
+    padding: 12px;
 }
 
 .gray-button:hover {
-    border: 1px solid gray;
-    background-color: lightgrey
+    border: 1px solid lightgray;
+    background-color: #f5f5f5;
+}
+
+.gray-button:focus {
+    border: 1px solid lightgray;
+    background-color: #f5f5f5;
+   
+}
+
+header span a {
+    color: darkslategray;
+    font-size: 14px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+
+footer a {
+    color: gray;
+    text-decoration: none;
+    margin: 8px;
+    margin-top: 8px;
+}
+
+header {
+    width: 98%;
+    height: 40px;
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: baseline;
+}
+
+footer {
+    width: 99%;
+    background-color: #f2f2f2;
+    border: 1px solid #dadada;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.push { /* for aligning items to right */
+    margin-left: auto;
 }
