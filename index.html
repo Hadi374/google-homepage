@@ -6,24 +6,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Google</title>
 </head>
-<body>
+<body class="container vertical">
     <!-- header -->
-    <header>
+    <header class="container">
+        <div class="left">
+
             <a href="#">About</a>
             <a href="#">Store</a>
-       
-            <a class="push" href="#">Gmail</a>
-            <a href="#">Images</a>
-            <img class="apps" src="google-apps.png" alt="square">
-            <button class="blue-button">Sign in</button>
+        </div>
+            <div class="right">
+                <a class="push" href="#">Gmail</a>
+                <a href="#">Images</a>
+                <img class="apps" src="google-apps.png" alt="square">
+                <button class="blue-button">Sign in</button>
+            </div>
         
        
     </header>
     <!-- main -->
-    <main>
-        <br>
+    <main class="flex-1">
         
-        <div class="container">
             
             <img class="logo" src="./googlelogo_color_272x92dp.png" alt="google logo">
             <br>
@@ -35,18 +37,22 @@
                 <button class="gray-button">I'm Feeling Lucky</button>
             </div>
 
-        </div>
     </main>
     <!-- footer -->
-    <footer>
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">How Search works</a>
-        
+    <footer class="container">
+        <div class="left">
 
-        <a class="push" href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+            
+        </div>
+        <div class="right">
+            
+            <a class="push" href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
 
     </footer>
 </body>
